@@ -1,4 +1,6 @@
-UIColor-uiGradientsAdditions
+![](https://dl.dropboxusercontent.com/u/7817937/_github/uig_.png)
+
+UIColor+uiGradients
 ============================
 
 Beautiful colors from http://uigradients.com/ 
@@ -443,3 +445,8 @@ Just clone and
 ```
 curl https://raw.githubusercontent.com/Ghosh/uiGradients/master/gradients.json | ruby parse.rb
 ```
+
+LICENSE
+---
+
+I do not claim any rights about the code. See https://github.com/Ghosh/uiGradients for LICENSE information.
