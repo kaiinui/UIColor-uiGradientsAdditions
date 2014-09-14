@@ -1,6 +1,6 @@
 ![](https://dl.dropboxusercontent.com/u/7817937/_github/uig_.png)
 
-UIColor+uiGradients
+UIColor+uiGradients ![](http://img.shields.io/cocoapods/v/UIColor+uiGradients.svg?style=flat)
 ============================
 
 Beautiful colors from http://uigradients.com/ 
