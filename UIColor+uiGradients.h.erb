@@ -1,0 +1,15 @@
+#import <UIKit/UIKit.h>
+
+typedef NS_ENUM(NSUInteger, UIGGradient) {
+    <% @colors.each do |color| %>UIG<%= color["classified_name"]%>,
+    <% end %>
+};
+
+@interface UIColor (uiGradients)<% @colors.each do |color| %>
+
+# pragma mark - <%= color["name"] %>
+
++ (UIColor *)uig_<%= color["camelized_name"] %>StartColor;
++ (UIColor *)uig_<%= color["camelized_name"] %>EndColor;<% end %>
+
+@end

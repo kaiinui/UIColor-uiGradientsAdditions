@@ -8,6 +8,8 @@
 
 #import "KIViewController.h"
 
+#import "UIColor+uiGradients.h"
+
 @interface KIViewController ()
 
 @end
@@ -17,6 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor uig_cherryEndColor];
+    
+    NSLog(@"%d", UIGCherry);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -21,6 +21,7 @@
 		D4C24DA819C61FE80015639A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C24D8A19C61FE80015639A /* UIKit.framework */; };
 		D4C24DB019C61FE80015639A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4C24DAE19C61FE80015639A /* InfoPlist.strings */; };
 		D4C24DB219C61FE80015639A /* UIGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C24DB119C61FE80015639A /* UIGTests.m */; };
+		D4C24DC119C621AD0015639A /* UIColor+uiGradients.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C24DC019C621AD0015639A /* UIColor+uiGradients.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D4C24DAD19C61FE80015639A /* UIGTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIGTests-Info.plist"; sourceTree = "<group>"; };
 		D4C24DAF19C61FE80015639A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4C24DB119C61FE80015639A /* UIGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIGTests.m; sourceTree = "<group>"; };
+		D4C24DBF19C621AD0015639A /* UIColor+uiGradients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+uiGradients.h"; sourceTree = "<group>"; };
+		D4C24DC019C621AD0015639A /* UIColor+uiGradients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+uiGradients.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		D4C24D8C19C61FE80015639A /* UIG */ = {
 			isa = PBXGroup;
 			children = (
+				D4C24DBB19C620110015639A /* Classes */,
 				D4C24D9519C61FE80015639A /* KIAppDelegate.h */,
 				D4C24D9619C61FE80015639A /* KIAppDelegate.m */,
 				D4C24D9819C61FE80015639A /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				D4C24DAE19C61FE80015639A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4C24DBB19C620110015639A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4C24DBF19C621AD0015639A /* UIColor+uiGradients.h */,
+				D4C24DC019C621AD0015639A /* UIColor+uiGradients.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 				D4C24D9D19C61FE80015639A /* KIViewController.m in Sources */,
 				D4C24D9719C61FE80015639A /* KIAppDelegate.m in Sources */,
 				D4C24D9319C61FE80015639A /* main.m in Sources */,
+				D4C24DC119C621AD0015639A /* UIColor+uiGradients.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
