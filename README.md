@@ -11,7 +11,7 @@ UIColor *startColor = [UIColor uig_emeraldWaterStartColor];
 UIColor *endColor = [UIColor uig_emeraldWaterEndColor];
 
 CAGradientLayer *gradient = [CAGradientLayer layer];
-gradient.frame = progressView.bounds;
+gradient.frame = view.bounds;
 gradient.startPoint = CGPointMake(0, 0);
 gradient.endPoint = CGPointMake(view.frame.size.width, 0);
 gradient.colors = @[(id)[startColor CGColor], (id)[endColor CGColor], nil];
