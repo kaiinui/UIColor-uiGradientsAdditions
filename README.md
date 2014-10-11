@@ -449,4 +449,4 @@ curl https://raw.githubusercontent.com/Ghosh/uiGradients/master/gradients.json |
 LICENSE
 ---
 
-I do not claim any rights about the code. See https://github.com/Ghosh/uiGradients for LICENSE information.
+I do not claim any rights about the code. See https://github.com/Ghosh/uiGradients for LICENSE information. (`uiGradients` is MIT License!)
